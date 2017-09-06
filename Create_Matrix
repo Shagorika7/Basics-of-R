@@ -1,0 +1,14 @@
+#Creating a matrix
+v <-seq(1,100,by=5) # vector
+v[10]
+# [1] 46
+
+length(v)
+# [1] 20
+
+m1<-matrix(v,ncol=5,nrow=10)
+m1[,1]
+# [1]  1  6 11 16 21 26 31 36 41 46
+
+m1[6,1]
+#  1] 26
