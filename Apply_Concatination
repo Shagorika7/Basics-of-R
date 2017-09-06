@@ -1,0 +1,4 @@
+a<- "I am"
+b <- "the best"
+c <- cbind(a,b)
+(c)
